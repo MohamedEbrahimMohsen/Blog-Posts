@@ -2,7 +2,7 @@ from flask import render_template, url_for, flash, redirect, request
 from flaskblog.forms.login import LoginForm
 from flaskblog.messages import login_msgs, status_msgs
 from flaskblog import app, bcrypt
-from flaskblog.database.repositories.UserRepository import UserRepository
+from flaskblog.database.repositories.user_repository import UserRepository
 from flask_login import login_user, current_user
 
 @app.route('/login', methods=['GET', 'POST'])

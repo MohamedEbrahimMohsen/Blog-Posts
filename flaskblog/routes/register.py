@@ -4,7 +4,7 @@ from flaskblog.models.post import Post
 from flaskblog.forms.register import RegisterationForm
 from flaskblog.messages import register_msgs, status_msgs
 from flaskblog import app, bcrypt
-from flaskblog.database.repositories.UserRepository import UserRepository
+from flaskblog.database.repositories.user_repository import UserRepository
 from flask_login import current_user
 
 @app.route('/register', methods=['GET', 'POST'])
