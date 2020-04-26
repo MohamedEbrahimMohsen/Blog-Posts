@@ -1,0 +1,1 @@
+DEFAULT_USER_PROFILE_IMG = 'image_profile_default'
